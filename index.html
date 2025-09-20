@@ -10,7 +10,55 @@
 <body>
   <main class="container">
     <h1>My File Browser</h1>
-    <p>This page is styled with Pico.css </p>
+    <table>
+  <thead>
+    <tr>
+      <th scope="col">Icon</th>
+      <th scope="col">File Name</th>
+      <th scope="col">File Type</th>
+      <th scope="col">File Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><i class="fa-solid fa-file-code"></i></td>
+      <td><a href="hello.html">hello.html</a></td>
+      <td>HTML Document</td>
+      <td>~120 Bytes</td>
+    </tr>
+    <tr>
+      <td><i class="fa-solid fa-file-image"></i></td>
+      <td><a href="image.png">image.png</a></td>
+      <td>PNG Image</td>
+      <td>~5 KB</td>
+    </tr>
+    <tr>
+      <td><i class="fa-solid fa-file-lines"></i></td>
+      <td><a href="notes.txt">notes.txt</a></td>
+      <td>Plain Text</td>
+      <td>~50 Bytes</td>
+    </tr>
+    <tr>
+      <td><i class="fa-solid fa-file-pdf"></i></td>
+      <td><a href="sample.pdf">sample.pdf</a></td></td>
+      <td>PDF Document</td>
+      <td>~10 KB</td>
+    </tr>
+    <tr>
+      <td><i class="fa-solid fa-file-json"></i></td>
+      <td><a href="data.json">data.json</a></td>
+      <td>JSON File</td>
+      <td>~150 Bytes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="mt-5">Browser Observations</h2>
+<ul>
+  <li>My browser directly displays images and PDF files, using a built-in viewer.</li>
+  <li>My browser shows the raw text of the JSON and plain text files, without any formatting.</li>
+  <li>My browser fully renders the HTML file, showing it as a proper webpage.</li>
+</ul>
   </main>
 </body>
 </html>
